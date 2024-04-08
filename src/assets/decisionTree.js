@@ -492,4 +492,180 @@ const nodes = [
       },
     ],
   },
+  {
+    id: 30,
+    question: "This sounds like a physical map or satellite photo.",
+    answers: [
+      {
+        option: "Yes that's it",
+        childNodeId: 31,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 31,
+    question: "Is lake Chad missing?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 32,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: 19,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 32,
+    question: "Is the Aral Sea missing?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "2000s+",
+      },
+      {
+        option: "No",
+        childNodeId: null,
+        result: "1970s-1990s",
+      },
+    ],
+  },
+  {
+    id: 33,
+    question: "Beleriand?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "First Age",
+      },
+      {
+        option: "No",
+        childNodeId: null,
+        result: "Early Second Age",
+      },
+    ],
+  },
+  {
+    id: 34,
+    question: "The forest east of the misty mountains is..?",
+    answers: [
+      {
+        option: "Greenwood The Great",
+        childNodeId: null,
+        result: "Early Third Age",
+      },
+      {
+        option: "Mirkwood",
+        childNodeId: null,
+        result: "Late Third Age",
+      },
+      {
+        option: "The wood of Greenleaves",
+        childNodeId: null,
+        result: "Fourth Age",
+      },
+    ],
+  },
+  {
+    id: 35,
+    question: "Lotta islands?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "Dawn Treader",
+      },
+      {
+        option: "No",
+        childNodeId: 22,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 36,
+    question: "Can you see the familiar continents?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 30,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: 37,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 37,
+    question: "Rivers 'Sirion' and 'Anduin'?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 39,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: 38,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 38,
+    question: "Cair Paravel?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 57,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: 55,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 39,
+    question: "Mordor?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 40,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: 33,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 40,
+    question: "Nùmenor?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "Late Second Age",
+      },
+      {
+        option: "No",
+        childNodeId: 34,
+        result: null,
+      },
+    ],
+  },
 ];
