@@ -364,4 +364,132 @@ const nodes = [
       },
     ],
   },
+  {
+    id: 22,
+    question: "Beruna",
+    answers: [
+      {
+        option: "Ford",
+        childNodeId: null,
+        result: "The Lion, The Witch, And the Wardrobe",
+      },
+      {
+        option: "Bridge",
+        childNodeId: null,
+        result: "Prince Caspian",
+      },
+    ],
+  },
+  {
+    id: 23,
+    question: "Does South Africa exist?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 9,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: 24,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 24,
+    question: "Does Rhodesia exist?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 26,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: 27,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 25,
+    question: "Does Albania exist?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "1913-1918",
+      },
+      {
+        option: "No",
+        childNodeId: null,
+        result: "1910-1912",
+      },
+    ],
+  },
+  {
+    id: 26,
+    question: "Is Norway part of Sweden?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "1896-1905",
+      },
+      {
+        option: "No",
+        childNodeId: null,
+        result: "1906-1909",
+      },
+    ],
+  },
+  {
+    id: 27,
+    question: "Is Bolivia landlocked?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "1884-1895",
+      },
+      {
+        option: "No",
+        childNodeId: 28,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 28,
+    question: "Buda and Pest or Budapest?",
+    answers: [
+      {
+        option: "Buda and Pest",
+        childNodeId: null,
+        result: "1868-1872",
+      },
+      {
+        option: "Budapest",
+        childNodeId: null,
+        result: "1873-1883",
+      },
+    ],
+  },
+  {
+    id: 29,
+    question: "Does Leningrad exist?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "1924-1929",
+      },
+      {
+        option: "No",
+        childNodeId: null,
+        result: "1919-1923",
+      },
+    ],
+  },
 ];
