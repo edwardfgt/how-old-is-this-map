@@ -833,4 +833,154 @@ const nodes = [
       },
     ],
   },
+  {
+    id: 51,
+    question: "How many Sudans are there?",
+    answers: [
+      {
+        option: "One",
+        childNodeId: null,
+        result: "2007-2011",
+      },
+      {
+        option: "Two",
+        childNodeId: 53,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 52,
+    question: "'Colorado' or 'Danger-radioactive exclusion zone-avoid?",
+    answers: [
+      {
+        option: "Colorado",
+        childNodeId: null,
+        result: "2014-2021",
+      },
+      {
+        option: "Danger",
+        childNodeId: 69,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 53,
+    question: "Is Crimea disputed?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 52,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: null,
+        result: "2012-2013",
+      },
+    ],
+  },
+  {
+    id: 54,
+    question: "Canada is...",
+    answers: [
+      {
+        option: "Fine",
+        childNodeId: 64,
+        result: null,
+      },
+      {
+        option: "Missing a piece",
+        childNodeId: null,
+        result: "1948",
+      },
+    ],
+  },
+  {
+    id: 55,
+    question: "Mossflower?",
+    answers: [
+      {
+        option: "No",
+        childNodeId: 56,
+        result: null,
+      },
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "Redwall",
+      },
+    ],
+  },
+  {
+    id: 56,
+    question: "Is the world on the back of a turtle?",
+    answers: [
+      {
+        option: "No",
+        childNodeId: 58,
+        result: null,
+      },
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "Discworld",
+      },
+    ],
+  },
+  {
+    id: 57,
+    question: "Calormen?",
+    answers: [
+      {
+        option: "No",
+        childNodeId: 35,
+        result: null,
+      },
+      {
+        option: "Yes",
+        childNodeId: 61,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 58,
+    question: "Are you sure this is a map?",
+    answers: [
+      {
+        option: "No",
+        childNodeId: 63,
+        result: null,
+      },
+      {
+        option: "Yes",
+        childNodeId: 59,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 59,
+    question: "Did you make it yourself?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 60,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 60,
+    question: "It's very nice.",
+    answers: [
+      {
+        option: "Thank you.",
+        childNodeId: null,
+        result: "You're welcome",
+      },
+    ],
+  },
 ];
