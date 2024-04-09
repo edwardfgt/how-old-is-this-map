@@ -668,4 +668,169 @@ const nodes = [
       },
     ],
   },
+  {
+    id: 41,
+    question: "How many Germanys are there?",
+    answers: [
+      {
+        option: "One",
+        childNodeId: 42,
+        result: null,
+      },
+      {
+        option: "One, but it's HUGE",
+        childNodeId: null,
+        result: "1941-1945",
+      },
+      {
+        option: "Two",
+        childNodeId: null,
+        result: "1946-1947",
+      },
+    ],
+  },
+  {
+    id: 42,
+    question: "Persia or Iran?",
+    answers: [
+      {
+        option: "Persia",
+        childNodeId: null,
+        result: "1930-1934",
+      },
+      {
+        option: "Iran",
+        childNodeId: null,
+        result: "1935-1940",
+      },
+    ],
+  },
+  {
+    id: 43,
+    question: "Eritrea is part of...?",
+    answers: [
+      {
+        option: "Italy",
+        childNodeId: 54,
+        result: null,
+      },
+      {
+        option: "Ethiopia",
+        childNodeId: null,
+        result: "1952-1953",
+      },
+    ],
+  },
+  {
+    id: 44,
+    question: "Does Pakistan exist?",
+    answers: [
+      {
+        option: "No",
+        childNodeId: 41,
+        result: null,
+      },
+      {
+        option: "Yes",
+        childNodeId: 68,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 45,
+    question: "Does Bangladesh exist?",
+    answers: [
+      {
+        option: "No",
+        childNodeId: 67,
+        result: null,
+      },
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "1972-1975",
+      },
+    ],
+  },
+  {
+    id: 46,
+    question: "How many Vietnams are there?",
+    answers: [
+      {
+        option: "One",
+        childNodeId: 67,
+        result: null,
+      },
+      {
+        option: "Two",
+        childNodeId: 45,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 47,
+    question: "Does the Soviet Union exist?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 5,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: 48,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 48,
+    question: "Zaire? Or: Hong Kong (uk)",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "1992-1996",
+      },
+      {
+        option: "No",
+        childNodeId: 49,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 49,
+    question: "Serbia/Montenegro are...",
+    answers: [
+      {
+        option: "One country",
+        childNodeId: 50,
+        result: null,
+      },
+      {
+        option: "Two countries",
+        childNodeId: 51,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 50,
+    question: "Does East Timor exist",
+    answers: [
+      {
+        option: "No",
+        childNodeId: null,
+        result: "1997-2001",
+      },
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "2002-2006",
+      },
+    ],
+  },
 ];
