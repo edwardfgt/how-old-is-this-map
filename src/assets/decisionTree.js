@@ -983,4 +983,184 @@ const nodes = [
       },
     ],
   },
+  {
+    id: 61,
+    question: "Weird recursive heaven?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "The Last Battle",
+      },
+      {
+        option: "No",
+        childNodeId: null,
+        result: "One of the random later books",
+      },
+    ],
+  },
+  {
+    id: 62,
+    question: "Is it larger than a breadbox?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "Tuba",
+      },
+      {
+        option: "No",
+        childNodeId: null,
+        result: "Stapler",
+      },
+      {
+        option: "About the same",
+        childNodeId: null,
+        result: "Breadbox",
+      },
+    ],
+  },
+  {
+    id: 63,
+    question: "Is it trying to bite you?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 74,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: 62,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 64,
+    question: "The town on 1-25 between Albuquerque and El Paso is..",
+    answers: [
+      {
+        option: "Hot Springs",
+        childNodeId: null,
+        result: "1948-1949",
+      },
+      {
+        option: "Truth or Consequences",
+        childNodeId: null,
+        result: "1950-1952",
+      },
+    ],
+  },
+  {
+    id: 65,
+    question: "Is the area south of Lake Victoria?",
+    answers: [
+      {
+        option: "British",
+        childNodeId: null,
+        result: "1960",
+      },
+      {
+        option: "Tanganyika",
+        childNodeId: null,
+        result: "1961-1964",
+      },
+      {
+        option: "Tanzania",
+        childNodeId: null,
+        result: "1965-1971",
+      },
+    ],
+  },
+  {
+    id: 66,
+    question: "Does the United Arab Republic exist?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "1958-1960",
+      },
+      {
+        option: "No",
+        childNodeId: null,
+        result: "195401957",
+      },
+    ],
+  },
+  {
+    id: 67,
+    question: "Jimmy Carter is..",
+    answers: [
+      {
+        option: "Being attacked by a giant swimming rabbit",
+        childNodeId: null,
+        result: "April 20, 1979",
+      },
+      {
+        option: "Fine",
+        childNodeId: 70,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 68,
+    question: "Does Cambodia exist?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: 65,
+        result: null,
+      },
+      {
+        option: "No",
+        childNodeId: 43,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 69,
+    question: "Does the warning mention spiders?",
+    answers: [
+      {
+        option: "Yes",
+        childNodeId: null,
+        result: "2023 or later",
+      },
+      {
+        option: "No",
+        childNodeId: null,
+        result: "2022",
+      },
+    ],
+  },
+  {
+    id: 70,
+    question: "The Sinai is part of what country?",
+    answers: [
+      {
+        option: "Israel",
+        childNodeId: null,
+        result: "1976-1979",
+      },
+      {
+        option: "Mostly Israel",
+        childNodeId: null,
+        result: "1980",
+      },
+      {
+        option: "Mostly Egypt",
+        childNodeId: null,
+        result: "1981",
+      },
+      {
+        option: "Egypt",
+        childNodeId: 71,
+        result: null,
+      },
+    ],
+  },
 ];
