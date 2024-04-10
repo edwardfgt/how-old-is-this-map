@@ -1163,4 +1163,73 @@ const nodes = [
       },
     ],
   },
+  {
+    id: 71,
+    question: "What is the capital of Micronesia?",
+    answers: [
+      {
+        option: "Kolonia",
+        childNodeId: 72,
+        result: null,
+      },
+      {
+        option: "Palikir",
+        childNodeId: 73,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 72,
+    question: "Republic of the upper volta or Burkina Faso?",
+    answers: [
+      {
+        option: "Upper Volta",
+        childNodeId: null,
+        result: "1982-1984",
+      },
+      {
+        option: "Burkina Faso",
+        childNodeId: null,
+        result: "1985-1988",
+      },
+    ],
+  },
+  {
+    id: 73,
+    question: "(Number of Yemens) + (Number of Germanys) = ?",
+    answers: [
+      {
+        option: "Four",
+        childNodeId: null,
+        result: "1989-Early 1990",
+      },
+      {
+        option: "Three",
+        childNodeId: null,
+        result: "Mid 1990",
+      },
+      {
+        option: "Two",
+        childNodeId: null,
+        result: "Late 1990-1991",
+      },
+    ],
+  },
+  {
+    id: 74,
+    question: "If you let go, what does it do?",
+    answers: [
+      {
+        option: "Hisses and runs away",
+        childNodeId: null,
+        result: "Cat",
+      },
+      {
+        option: "Screeches and flaps around the room breaking things",
+        childNodeId: null,
+        result: "Seagull",
+      },
+    ],
+  },
 ];
